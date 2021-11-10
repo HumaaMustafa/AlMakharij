@@ -126,15 +126,14 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void addQuestions() {
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
-        questionsList.add(new QuizQuestions("", "", "", "", 1));
+        questionsList.add(new QuizQuestions(" أ", "End of Throat", "Middle of Throat", "Start of the Throat", 1));
+        questionsList.add(new QuizQuestions(" ہ", "End of Throat", "Middle of Throat", "Start of the Throat", 1));
+        questionsList.add(new QuizQuestions("ح", "End of Throat", "Middle of Throat", "Start of the Throat", 2));
+        questionsList.add(new QuizQuestions("ع", "End of Throat", "Middle of Throat", "Start of the Throat", 2));
+        questionsList.add(new QuizQuestions(" خ", "End of Throat", "Middle of Throat", "Start of the Throat", 3));
+        questionsList.add(new QuizQuestions("غ", "End of Throat", "Middle of Throat", "Start of the Throat", 3));
+        questionsList.add(new QuizQuestions("ق", "Base of Tongue which is near Uvula touching the mouth roof", "Portion of Tongue near its base touching the roof of mouth", "Middle of Throat", 1));
+        questionsList.add(new QuizQuestions("ک", "Base of Tongue which is near Uvula touching the mouth roof", "Portion of Tongue near its base touching the roof of mouth", "Middle of Throat", 1));
         questionsList.add(new QuizQuestions("", "", "", "", 1));
         questionsList.add(new QuizQuestions("", "", "", "", 1));
         questionsList.add(new QuizQuestions("", "", "", "", 1));
