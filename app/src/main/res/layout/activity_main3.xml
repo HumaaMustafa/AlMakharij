@@ -2,19 +2,22 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/next1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DFC7C7"
+    android:textAlignment="center"
     tools:context=".MainActivity3">
-
 
     <RadioGroup
         android:id="@+id/radioGroup1"
         android:layout_width="291dp"
         android:layout_height="149dp"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="198dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="199dp"
+        android:background="#734444"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,19 +29,25 @@
             android:id="@+id/op4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
 
         <RadioButton
             android:id="@+id/op5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
 
         <RadioButton
             android:id="@+id/op6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
     </RadioGroup>
 
     <TextView
@@ -49,9 +58,12 @@
         android:layout_marginTop="160dp"
         android:layout_marginEnd="277dp"
         android:layout_marginBottom="60dp"
+        android:background="#734444"
         android:text="Question"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,9 +77,13 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="286dp"
         android:layout_marginBottom="99dp"
+        android:background="#734444"
+        android:backgroundTint="#734444"
         android:text="Scores = 0"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="16sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,12 +93,15 @@
         android:id="@+id/next2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="139dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="139dp"
-        android:text="NEXT"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="#734444"
+        android:text="Next"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
